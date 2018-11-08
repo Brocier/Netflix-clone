@@ -3,7 +3,7 @@ import Proptypes from "prop-types";
 
 const Poster = ({ posterPath }) => (
   <div id="poster-container">
-    <img id="poster" src={posterPath} />
+    <img alt="img" id="poster" src={posterPath} />
   </div>
 );
 

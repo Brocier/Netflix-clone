@@ -57,7 +57,11 @@ class SearchItem extends React.Component {
       );
     }
     return (
-      <img className="tile-img" src="http://via.placeholder.com/280x160" />
+      <img
+        alt="img"
+        className="tile-img"
+        src="http://via.placeholder.com/280x160"
+      />
     );
   };
 
